@@ -125,6 +125,10 @@ body {
     object-fit: cover;
     opacity: 0.95;
     z-index: 1;
+    content: url('../img/lilac-frame-desktop.png');
+}
+
+@media (max-width: 768px) {
 }
 
 /* Call to Action Buttons
@@ -213,6 +217,10 @@ body {
     .site-header {
         height: var(--header-height-mobile);
         padding: 0 20px;
+    }
+
+    .hero-decor {
+        content: url('../img/lilac-frame-mobile.png');
     }
 
     .panel .panel-grid {
