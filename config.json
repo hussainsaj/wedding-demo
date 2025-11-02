@@ -1,0 +1,39 @@
+{
+  "events": {
+    "mehndi": {
+      "title": "Mehndi",
+      "date": "Thursday 26th of March 2026",
+      "time": "7:00 PM",
+      "venue": "Venue name",
+      "address": "Islamabad",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate enim quis leo egestas mollis. In eu quam eget arcu sollicitudin facilisis. Nunc mollis arcu et mollis interdum. Etiam vel orci ex. Donec dignissim ante quis rhoncus maximus. Morbi nec elit mattis, placerat metus at, elementum augue. Maecenas nisi ipsum, pharetra in luctus ac, porta eget metus. Mauris rutrum feugiat neque, non vulputate lacus interdum pharetra. Mauris nisi dolor, elementum at ultrices nec, varius eget elit. In iaculis lorem velit, quis dapibus risus semper vel. In pretium mollis mollis. Maecenas iaculis cursus mi vitae dapibus. Nunc posuere risus a sagittis porta. Nulla tincidunt, elit et dictum suscipit, massa elit consectetur urna, ac iaculis odio metus in mi. Nam eget elit metus. Donec hendrerit ex ligula, et tempor est suscipit id."
+    },
+    "barat": {
+      "title": "Barat",
+      "date": "Friday 27th of March 2026",
+      "time": "6:00 PM",
+      "venue": "Venue name",
+      "address": "Nowshera",
+      "description": "Phasellus eget facilisis mi, sit amet eleifend sem. Vivamus molestie at mi vel fermentum. In auctor magna nec viverra sollicitudin. Quisque pharetra rutrum ex, eu vestibulum nunc rutrum accumsan. Vestibulum facilisis aliquet dui eu condimentum. Vestibulum molestie tincidunt dolor, sit amet commodo turpis congue nec. Suspendisse potenti. Maecenas iaculis leo et orci ornare bibendum. Quisque egestas elit metus, quis finibus lorem laoreet a. Ut nec volutpat augue."
+    },
+    "valima": {
+      "title": "Valima",
+      "date": "Sunday 29th of March 2026",
+      "time": "7:00 PM",
+      "venue": "Venue name",
+      "address": "Islamabad",
+      "description": "Vestibulum malesuada, velit at tempus pharetra, risus lacus commodo arcu, vel congue augue erat eget urna. Curabitur non aliquet diam. Aenean scelerisque mauris in aliquet pharetra. Morbi at tempor dui. Etiam egestas massa euismod lectus tempor, a condimentum dolor pulvinar. Nullam sit amet leo dapibus, tempus elit eu, maximus nunc. Aliquam erat volutpat. Donec lacinia congue ultrices."
+    }
+  },
+  "presets": {
+    "default": {
+      "events": []
+    },
+    "full": {
+      "events": ["mehndi", "barat", "valima"]
+    },
+    "basic": {
+      "events": ["barat", "valima"]
+    }
+  }
+}
