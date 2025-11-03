@@ -161,7 +161,7 @@ body {
     background-color: var(--bg);
 }
 
-.panel:nth-child(even) {
+.panel:nth-child(odd) {
     background-color: #efedeb;
 }
 

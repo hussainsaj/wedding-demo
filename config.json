@@ -1,6 +1,14 @@
 {
   "events": {
-    "mehndi": {
+    "mehndi-bride": {
+      "title": "Mehndi",
+      "date": "Thursday 26th of March 2026",
+      "time": "7:00 PM",
+      "venue": "Venue name",
+      "address": "Nowshera",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate enim quis leo egestas mollis. In eu quam eget arcu sollicitudin facilisis. Nunc mollis arcu et mollis interdum. Etiam vel orci ex. Donec dignissim ante quis rhoncus maximus. Morbi nec elit mattis, placerat metus at, elementum augue. Maecenas nisi ipsum, pharetra in luctus ac, porta eget metus. Mauris rutrum feugiat neque, non vulputate lacus interdum pharetra. Mauris nisi dolor, elementum at ultrices nec, varius eget elit. In iaculis lorem velit, quis dapibus risus semper vel. In pretium mollis mollis. Maecenas iaculis cursus mi vitae dapibus. Nunc posuere risus a sagittis porta. Nulla tincidunt, elit et dictum suscipit, massa elit consectetur urna, ac iaculis odio metus in mi. Nam eget elit metus. Donec hendrerit ex ligula, et tempor est suscipit id."
+    },
+    "mehndi-groom": {
       "title": "Mehndi",
       "date": "Thursday 26th of March 2026",
       "time": "7:00 PM",
@@ -27,10 +35,13 @@
   },
   "presets": {
     "default": {
-      "events": []
+      "events": ["barat", "valima"]
     },
-    "full": {
-      "events": ["mehndi", "barat", "valima"]
+    "full-bride": {
+      "events": ["mehndi-bride", "barat", "valima"]
+    },
+    "full-groom": {
+      "events": ["mehndi-groom", "barat", "valima"]
     },
     "basic": {
       "events": ["barat", "valima"]
