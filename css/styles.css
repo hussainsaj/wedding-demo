@@ -123,9 +123,13 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.95;
+    opacity: 0.60;
     z-index: 1;
     content: url('../img/lilac-frame-desktop.png');
+}
+
+.hero-bismillah {
+    width: 200px;
 }
 
 @media (max-width: 768px) {
