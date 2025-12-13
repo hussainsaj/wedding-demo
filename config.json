@@ -43,8 +43,21 @@
     "full-groom": {
       "events": ["mehndi-groom", "barat", "valima"]
     },
-    "basic": {
+    "core-bride": {
+      "events": ["barat", "valima"]
+    },
+    "core-groom": {
       "events": ["barat", "valima"]
     }
+  },
+  "rsvps": {
+    "bride": [
+      { "name": "Name 1", "phone_display": "+92 0100 000000", "phone": "92100000000" },
+      { "name": "Name 2", "phone_display": "+92 0100 000000", "phone": "92100000000" }
+    ],
+    "groom": [
+      { "name": "Name 1", "phone_display": "+44 07000 00000", "phone": "44700000000" },
+      { "name": "Name 2", "phone_display": "+44 07000 00000", "phone": "44700000000" }
+    ]
   }
 }

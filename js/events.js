@@ -1,4 +1,5 @@
 import { getPresetFromUrl } from './config.js';
+import { renderRSVP } from './rsvp.js';
 
 // Function to create event section HTML
 function createEventSection(eventId, content) {
@@ -41,6 +42,27 @@ async function updateContent(config) {
             eventsContainer.insertAdjacentHTML('beforeend', eventHtml);
         }
     });
+
+    // Render RSVP content (moved to its own module)
+    renderRSVP(config, eventsContainer);
+}
+
+// Function to create the RSVP section HTML
+function createRSVPInner(party, list) {
+    const title = party === 'groom' ? 'RSVP (Groom side)' : 'RSVP (Bride side)';
+    const items = list.map(entry => {
+        const phone = entry.phone || '';
+        const safeHref = phone ? `tel:${phone.replace(/\s+/g, '')}` : '';
+        const phoneLink = phone ? `<a href="${safeHref}">${phone}</a>` : '';
+        return `<li><strong>${entry.name}</strong>${phoneLink ? ': ' + phoneLink : ''}</li>`;
+    }).join('');
+
+    return `
+        <h3 class="event-title">${title}</h3>
+        <ul class="rsvp-list">
+            ${items}
+        </ul>
+    `;
 }
 
 export { updateContent };
